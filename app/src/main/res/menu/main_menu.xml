@@ -3,8 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menuID"
-        android:title="menu"
-        app:showAsAction="always|collapseActionView" />
+        android:id="@+id/findapprovedID"
+        android:title="Filter by approved" />
+    <item
+        android:id="@+id/findsuspenseID"
+        android:title="Filter by suspense" />
+    <item
+        android:id="@+id/findgradeID1A"
+        android:title="Filter by grade 1ºA" />
+    <item
+        android:id="@+id/findgradeID2B"
+        android:title="Filter by grade 2ºB" />
+    <item
+        android:id="@+id/findgradeID3A"
+        android:title="Filter by grade 3ºA" />
+    <item
+        android:id="@+id/findnoteID"
+        android:title="Order by note" />
+    <item
+        android:id="@+id/findnameID"
+        android:title="Order by name" />
+    <item
+        android:id="@+id/calculateAverage"
+        android:title="Calculate average" />
 
 </menu>

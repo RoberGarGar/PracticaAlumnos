@@ -7,7 +7,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_student_detail.*
 
 class StudentDetailActivity : AppCompatActivity() {
-    @SuppressLint("ResourceAsColor", "ResourceType")
+    @SuppressLint("ResourceAsColor", "ResourceType", "StringFormatMatches")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +32,7 @@ class StudentDetailActivity : AppCompatActivity() {
         val redST = getResources().getString(R.color.red)
         val greenST = getResources().getString(R.color.green)
 
-        if(detail.idNote=="5" || detail.idNote=="6"|| detail.idNote=="7"|| detail.idNote=="8"|| detail.idNote=="9"|| detail.idNote=="10"){
+        if(detail.idNote in 5..10){
             linear.setBackgroundColor(Color.parseColor(greenST))
         }else{
             linear.setBackgroundColor(Color.parseColor(redST))
