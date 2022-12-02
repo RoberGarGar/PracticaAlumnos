@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PracticaAlumnos</string>
-    
+
     <string name="name">Name: %1$s</string>
 
     <string name="surname">Surname: %1$s</string>
@@ -10,5 +10,7 @@
     <string name="grade">Grade: %1$s</string>
 
     <string name="age">Age: %1$s</string>
+    <string name="start" />
+    <string name="cancel" />
 
 </resources>
